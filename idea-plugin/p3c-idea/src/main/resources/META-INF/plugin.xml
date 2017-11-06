@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.alibaba.p3c.smartfox</id>
+    <name>Alibaba Java Coding Guidelines</name>
+    <description>Alibaba Java Coding Guidelines plugin support.</description>
+
+    <change-notes>
+        <![CDATA[
+         <ul>
+        1.0.1
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/149">https://github.com/alibaba/p3c/issues/149</a></li>
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/60">https://github.com/alibaba/p3c/issues/60</a></li>
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/58">https://github.com/alibaba/p3c/issues/58</a></li>
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/68">https://github.com/alibaba/p3c/issues/68</a></li>
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/68">https://github.com/alibaba/p3c/issues/68</a></li>
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/112">https://github.com/alibaba/p3c/issues/112</a></li>
+        <li>fix <a href="https://github.com/alibaba/p3c/issues/127">https://github.com/alibaba/p3c/issues/127</a></li>
+        </ul>
+        ]]>
+    </change-notes>
+    <vendor>alibaba</vendor>
+    <version>1.0.0</version>
+    <idea-version since-build="141.0"/>
+    <depends optional="true">com.intellij.velocity</depends>
+    <depends optional="true" config-file="p3c.xml">com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.vcs</depends>
+    <depends>com.intellij.modules.xml</depends>
+    <depends>com.intellij.modules.xdebugger</depends>
+</idea-plugin>
